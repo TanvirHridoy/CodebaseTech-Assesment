@@ -28,10 +28,10 @@ A clean and modular API-only backend built using **.NET 8** to support a **mobil
 ## 📁 Project Structure
 
 UserOnboarding/
- API/ // Minimal API entry point and endpoints
- Application/ // DTOs, Interfaces, Services
- Domain/ // Core entities
- Infrastructure/ // EF DbContext, data logic
+ 1. API/ // Minimal API entry point and endpoints
+ 2. Application/ // DTOs, Interfaces, Services
+ 3. Domain/ // Core entities
+ 4. Infrastructure/ // EF DbContext, data logic
  README.md
 
 
