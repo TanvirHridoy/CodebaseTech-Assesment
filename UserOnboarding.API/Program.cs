@@ -25,12 +25,12 @@ namespace UserOnboarding.API
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            // Configure the HTTP request pipeline. kept swagger open for testing purposes
+            //if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
+            //{
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+            //}
 
             app.UseHttpsRedirection();
 
